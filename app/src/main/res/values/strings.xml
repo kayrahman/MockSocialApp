@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MockSocialApp</string>
+
+
+
+    <array name="dot_active">
+        <item>@color/dot_light_active1</item>
+
+
+    </array>
+
+
+    <array name="dot_inactive">
+        <item>@color/dot_inactive1</item>
+
+
+    </array>
+
+
+</resources>

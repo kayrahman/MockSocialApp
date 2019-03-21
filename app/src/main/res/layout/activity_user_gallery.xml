@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UserGalleryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_ac_user_gallery_user_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:src="@drawable/male"
+                />
+
+            <TextView
+                android:id="@+id/tv_ac_user_gallery_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tom Cruise"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_ac_user_gallery_user_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Life is a wonderful thing"
+                android:textAlignment="center"
+                android:textStyle="bold"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_ac_user_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+</ScrollView>
